@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  isolation: isolate;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik.woff2') format('woff2 supports variations'),
+    url('/fonts/Rubik.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik.woff2') format('woff2 supports variations'),
+    url('/fonts/Rubik.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: fallback;
+}
